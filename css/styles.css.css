@@ -1,6 +1,7 @@
 .body {
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
     font-weight:400;
     font-size: 16px;
     line-height: 1.5;
@@ -9,17 +10,17 @@
 }
 
 nav .logo {
-    font-family: "Raleway" sans-serif;
-    color: #2E2F42;
-    font-weight: 700;
+    font-family:"Raleway" sans-serif;
     font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 
 nav .logo1 {
-    font-family: "Raleway" sans-serif;
-    color: #4D5AE5;
-    font-weight: 700;
-    font-size: 18px;
+    color: #2e2f42;
 }
 
 nav .navigation-unit-1 {
@@ -80,7 +81,7 @@ address:hover {
 }
 
 ul .text-1 {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
