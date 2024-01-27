@@ -9,7 +9,7 @@ body {
 }
 
 nav .logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -87,4 +87,17 @@ ul .text-1 {
 
 .footer-text {
   color: #f4f4fd;
+}
+
+footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+footer .logo1 {
+  color: #2e2f42;
 }
