@@ -125,11 +125,20 @@ body {
   background-color: #ffffff;
 }
 
-.member-name {
-  color: #2e2f42;
+.members-title {
   font-size: 36px;
-  font-weight: 500;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.member {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
