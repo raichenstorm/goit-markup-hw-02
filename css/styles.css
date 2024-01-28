@@ -72,7 +72,6 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -88,10 +87,12 @@ body {
   cursor: pointer;
 }
 
-.page-title-button:hover
+.page-title-button:hover,
 .page-title-button:focus {
   background-color: #404BBF;
 }
+
+/* Section-2 */
 
 .section-title {
   color: #2e2f42;
@@ -102,13 +103,17 @@ body {
   text-align: center;
 }
 
-.list-title-1 {
+.goals-list {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+.goals-list-paragraph {
+  
 }
 
 .list-title-2 {
