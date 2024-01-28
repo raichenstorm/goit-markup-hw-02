@@ -1,3 +1,5 @@
+/* Root */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -8,38 +10,55 @@ body {
   letter-spacing: 0.02em;
 }
 
-nav .logo {
+/* Header */
+
+.logo {
   font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
-nav .logo1 {
+.logo1 {
   color: #2e2f42;
 }
 
-nav .navigation-unit-1 {
+.navigation-menu .navigation-unit {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-nav .navigation-unit-1:hover {
+.navigation-menu .navigation-unit:hover {
   color: #404bbf;
 }
 
-nav .navigation-unit-1:active {
+.navigation-menu .navigation-unit:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
-address:hover {
+.contacts {
+  font-style: normal; 
+}
+
+.contacts-unit {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contacts-unit:hover,
+.contacts-unit:focus {
   color: #404bbf;
 }
+
+/* Main */
 
 .page-title {
   font-size: 56px;
@@ -91,11 +110,14 @@ ul .text-1 {
 
 footer .logo {
   font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
 footer .logo1 {
