@@ -125,9 +125,9 @@ body {
   background-color: #ffffff;
 }
 
-.members.title {
+.member-name {
   color: #2e2f42;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -144,6 +144,7 @@ body {
   text-align: center;
 }
 
+/*  */
 .footer-text {
   color: #f4f4fd;
 }
