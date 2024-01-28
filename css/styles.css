@@ -113,19 +113,30 @@ body {
 }
 
 .goals-list-paragraph {
-  
+
 }
 
-.list-title-2 {
+/* Section-3 */
+
+.team-section {
+  background-color: #F4F4FD;
+}
+
+.list-unit {
+  background-color: #FFFFFF;
+}
+
+.members.title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
-ul .text-1 {
+.position {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
