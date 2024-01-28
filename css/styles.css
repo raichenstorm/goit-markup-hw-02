@@ -51,6 +51,7 @@ body {
 .contacts-unit {
   font-size: 16px;
   line-height: 1.5;
+  color: #434455;
 }
 
 .contacts-unit:hover,
@@ -60,12 +61,36 @@ body {
 
 /* Main */
 
+/* Section-1 */
+
+.main-header {
+  background-color:#2e2f42;
+}
+
 .page-title {
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07;
   line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.page-title-button {
+  background-color: #4D5AE5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.page-title-button:hover
+.page-title-button:focus {
+  background-color: #404BBF;
 }
 
 .section-title {
